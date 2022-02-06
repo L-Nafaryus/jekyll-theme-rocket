@@ -2,6 +2,3 @@ title: Rocket theme
 description: Rocket is a theme for GitHub Pages.
 google_analytics:
 theme: jekyll-theme-rocket
-remote_theme: L-Nafaryus/jekyll-theme-rocket@v0.0.2
-plugins:
-- jekyll-remote-theme
