@@ -11,7 +11,7 @@ To use the Rocket theme:
 1. Add the following to your site's `_config.yml`:
 
     ```yml
-    remote_theme: L-Nafaryus/jekyll-theme-rocket@v0.0.1
+    remote_theme: L-Nafaryus/jekyll-theme-rocket@v0.0.2
     plugins:
     - jekyll-remote-theme # add this line to the plugins list if you already have one
     ```
