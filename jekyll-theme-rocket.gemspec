@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name          = "jekyll-theme-rocket"
-  s.version       = "0.0.1"
+  s.version       = "0.0.2"
   s.license       = "CC0-1.0"
   s.authors       = ["George Kusayko"]
   s.email         = ["l.nafaryus@gmail.com"]
