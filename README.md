@@ -1,5 +1,5 @@
 # The Rocket theme
-
+[![.github/workflows/ci.yaml](https://github.com/L-Nafaryus/jekyll-theme-rocket/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/L-Nafaryus/jekyll-theme-rocket/actions/workflows/ci.yaml)
 
 *Rocket is a Jekyll theme for GitHub Pages inspired by [rocket.rs](https://rocket.rs) style.*
 
