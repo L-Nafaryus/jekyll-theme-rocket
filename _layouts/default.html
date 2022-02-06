@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        {% seo %}
+
+        <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+
+        {% include head-custom.html %}
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <a id="logo" href="{{ '/' | relative_url }}">
+                    <!--<img src="{{ '/assets/images/logo.png' | relative_url }}" width="48" height="48">-->
+                </a>
+                
+                <input type="checkbox" id="toggle">
+                <label for="toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <nav class="main">
+                    <a href="{{ '/' | relative_url }}">Home</a>
+                    <a href="{{ site.github.repository_url }}">GitHub</a>
+                </nav>
+
+                <div class="centered">
+                    <h1>{{ site.title | default: site.github.repository_name }}</h1>
+                </div>
+            </div>
+        </header>
+
+        <section class="grid tight blocky-code">
+            <div id="sidebar">
+                <nav>
+                    <div class="toc mobile-hide">
+                        <ul>
+                            <!-- navigation -->
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <article>
+                {{ content }}
+            </article>
+        </section>
+
+        <footer class="grid light">
+            <div class="container">
+                <div class="col">
+                    Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+                </div>
+                <!--<div class="col text-right mobile-hide">
+                    <a href="#">Back to top Δ</a>
+                </div>-->
+            </div>
+        </footer>
+    </body>
+</html>
